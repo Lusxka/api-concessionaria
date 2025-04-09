@@ -2,11 +2,11 @@
 
 E aí, galera! Bem-vindos ao projeto `api-concessionaria`, o lugar onde os carros ganham vida... digitalmente, claro! Aqui, a gente junta o melhor dos dois mundos: a paixão por carros e a magia da tecnologia.
 
-## Pra que serve essa belezinha? 
+## Pra que serve essa APIRest? 
 
 Essa API foi criada para facilitar a vida de quem trabalha com concessionárias. Com ela, você pode gerenciar carros, clientes, vendas e tudo mais que rola nesse universo automotivo. É tipo um superpoder para a sua concessionária!
 
-## Como usar (sem se perder no caminho) ️
+## Como usar?
 
 1.  **Clone o repositório:**
 
@@ -55,22 +55,10 @@ Essa API foi criada para facilitar a vida de quem trabalha com concessionárias.
 * **Autenticação:** proteja seus dados com um sistema de autenticação seguro.
 * **Documentação Swagger:** explore a API de forma interativa e veja todos os detalhes dos endpoints.
 
-## Contribuindo para a garagem ️
-
-Quer dar um upgrade nessa API? Fique à vontade para contribuir! Siga estes passos:
-
-1.  Faça um fork do repositório.
-2.  Crie uma branch com a sua feature (`git checkout -b minha-feature`).
-3.  Faça commit das suas mudanças (`git commit -am 'Adiciona minha feature'`).
-4.  Faça push para a branch (`git push origin minha-feature`).
-5.  Abra um Pull Request.
 
 ## Licença 
 
 Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar e distribuir como quiser!
 
-## Contato 
 
-Tem alguma dúvida, sugestão ou quer bater um papo sobre carros? Manda um e-mail para [endereço de email removido].
 
-É isso aí, galera! Espero que vocês curtam essa API tanto quanto a gente curtiu criar. Bora acelerar juntos!
