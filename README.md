@@ -1,4 +1,4 @@
-# API Concessionária - Onde os Carros Ganham Vida (e Dados!) 
+# API Concessionária
 
 E aí, galera! Bem-vindos ao projeto `api-concessionaria`, o lugar onde os carros ganham vida... digitalmente, claro! Aqui, a gente junta o melhor dos dois mundos: a paixão por carros e a magia da tecnologia.
 
