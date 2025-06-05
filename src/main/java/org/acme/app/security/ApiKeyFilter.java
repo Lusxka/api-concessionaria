@@ -1,4 +1,4 @@
-package org.acme.app.security; // VERIFIQUE E AJUSTE ESTE PACOTE CONFORME SEU PROJETO
+package org.acme.app.security; 
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -6,18 +6,14 @@ import jakarta.ws.rs.container.ContainerRequestContext;
 import jakarta.ws.rs.container.ContainerRequestFilter;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.Provider;
-// REMOVA ESTA LINHA SE ELA EXISTIR: import org.eclipse.microprofile.config.inject.ConfigProperty;
-import org.acme.app.config.ApiKeyConfig; // IMPORTANTE: VERIFIQUE E AJUSTE ESTE IMPORT
+import org.acme.app.config.ApiKeyConfig;
 
-/**
- * Filtro de requisições para validação de API Key.
- * Intercepta todas as requisições e verifica a presença e validade da API Key.
- */
+
 @Provider
 @ApplicationScoped
 public class ApiKeyFilter implements ContainerRequestFilter {
 
-    // Injete a nova classe de configuração, não as propriedades individuais
+    
     @Inject
     ApiKeyConfig apiKeyConfig;
 

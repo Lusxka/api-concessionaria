@@ -46,7 +46,8 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-jdbc-h2</artifactId>
-            <version>3.19.2</version> </dependency>
+            <version>3.19.2</version>
+        </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-hibernate-orm</artifactId>
@@ -68,6 +69,12 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-arc</artifactId>
+        </dependency>
+
+        <!-- Fault Tolerance - mantida apenas uma instância -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-smallrye-fault-tolerance</artifactId>
         </dependency>
 
         <dependency>
@@ -92,6 +99,7 @@
             <version>1.5.5.Final</version>
             <scope>provided</scope>
         </dependency>
+        <!-- Dependência duplicada removida -->
     </dependencies>
 
     <build>
